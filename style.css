@@ -26,14 +26,18 @@ a:visited {
     text-decoration: none;
 }
 
-a:hover {
+a:hover, a:hover.inactive {
     color: hotpink;
     text-decoration: none;
 }
 
-a:active {
+a:active, a:active.inactive {
     color: yellow;
     text-decoration: none;
+}
+
+a.inactive {
+    color: gray;
 }
 
 body {
@@ -87,8 +91,4 @@ li > * > img {
     width: 64px;
     height: 64px;
     object-fit: contain;
-}
-
-a.inactive {
-    color: gray;
 }
