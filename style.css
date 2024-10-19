@@ -86,4 +86,9 @@ li > a:hover {
 li > * > img {
     width: 64px;
     height: 64px;
+    object-fit: contain;
+}
+
+a.inactive {
+    color: gray;
 }
